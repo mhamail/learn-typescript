@@ -1,0 +1,15 @@
+{
+  "name": "1.BasicTypes",
+  "version": "1.0.0",
+  "description": "//commands// 1. npm install -g typescript 2. tsc --v 3. tsc --help 4. tsc <file-name>.ts 5. tsc --init  6. tsc --watch 7. tsc -w  //node  8. node <file-name>.js 9. npm init -y 10. npm i nodemon 11. nodemon <file-name>.js 12. npm start",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
