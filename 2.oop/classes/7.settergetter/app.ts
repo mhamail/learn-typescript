@@ -20,15 +20,15 @@ class Employee extends Person {
         this.report = ""
     }
 
-    get getReport() {
-    if(this.report){
-        return console.log(this.report)
+    get reporting() {
+        if (this.report) {
+            return this.report
         }
-         throw new Error("no report found")
+        throw new Error("no report found")
     }
-    set setReport(value: string) {
+    set reporting(value: string) {
         if (!value) {
-         throw new Error("please pass a value")
+            throw new Error("please pass a value")
         }
         this.report = value;
     }
@@ -36,6 +36,6 @@ class Employee extends Person {
 
 
 let employee = new Employee('John', 'Doe', 'Front-end Developer');
-employee.setReport = "ok"
+employee.reporting = "ok"
 
-console.log(employee.getReport);
+console.log(employee.reporting);
